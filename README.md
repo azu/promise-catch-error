@@ -4,11 +4,11 @@ Experiment: `promise.catch` could be used any browser with polyfill.
 
 [![browser support](https://ci.testling.com/azu/promise-catch-error.png)](https://ci.testling.com/azu/promise-catch-error)
 
-## on IE<10
+## on IE<9
 
-`catch` is a reserved word in **IE < 10**, meaning `promise.catch(func)` throws a syntax error. 
+`catch` is a reserved word in **IE < 9**, meaning `promise.catch(func)` throws a syntax error. 
 
-More Detail on [jakearchibald/es6-promise](https://github.com/jakearchibald/es6-promise#usage-in-ie10 "jakearchibald/es6-promise").
+More Detail on [jakearchibald/es6-promise](https://github.com/jakearchibald/es6-promise "jakearchibald/es6-promise").
 
 ## Testing
 
