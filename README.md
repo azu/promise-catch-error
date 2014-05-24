@@ -2,6 +2,7 @@
 
 Experiment: `promise.catch` could be used any browser with polyfill.
 
+[![browser support](https://ci.testling.com/azu/promise-catch-error.png)](https://ci.testling.com/azu/promise-catch-error)
 
 ## on IE<10
 
