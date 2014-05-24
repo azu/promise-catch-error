@@ -1,0 +1,41 @@
+{
+  "name": "promise-catch-error",
+  "description": "experiment: promise.catch",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/promise-catch-error/",
+  "repository": {
+    "url": "git://github.com/azu/promise-catch-error.git"
+  },
+  "main": "test.js",
+  "scripts": {
+    "test": "testling"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/20..latest",
+      "firefox/20..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/promise-catch-error/issues"
+  },
+  "dependencies": {
+    "es6-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^4.1.5",
+    "tape": "^2.13.1",
+    "testling": "^1.6.1"
+  }
+}
